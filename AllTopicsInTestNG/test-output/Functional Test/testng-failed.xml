@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Test]">
+  <test name="Assertions(failed)">
+    <classes>
+      <class name="testNGTopics.Assertions">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testNGTopics.Assertions -->
+      <class name="testNGTopics.AllTestAnnotations">
+        <methods>
+          <include name="ClearedCache"/>
+          <include name="BorwserOpen"/>
+          <include name="ClosedBrowser"/>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- testNGTopics.AllTestAnnotations -->
+    </classes>
+  </test> <!-- Assertions(failed) -->
+</suite> <!-- Failed suite [Functional Test] -->

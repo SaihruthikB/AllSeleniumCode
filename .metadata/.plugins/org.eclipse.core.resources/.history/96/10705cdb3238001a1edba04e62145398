@@ -1,0 +1,15 @@
+package oopsConcepts;
+
+public class Constructs {
+	
+	int num;
+	int num1;
+	int num3;
+	
+	public static int test1(int obj1, int obj2)
+	{
+		Constructs c1 = new Constructs();
+		
+	}
+
+}

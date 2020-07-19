@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="121" started-at="2020-01-28T11:01:30Z" finished-at="2020-01-28T11:01:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="121" started-at="2020-01-28T11:01:30Z" finished-at="2020-01-28T11:01:30Z">
+      <class name="extentReports.Paramitarization">
+        <test-method status="PASS" signature="Username(java.lang.String, java.lang.String)[pri:0, instance:extentReports.Paramitarization@5c3bd550]" name="Username" duration-ms="19" started-at="2020-01-28T11:01:30Z" data-provider="getData" finished-at="2020-01-28T11:01:30Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username -->
+        <test-method status="PASS" signature="Username(java.lang.String, java.lang.String)[pri:0, instance:extentReports.Paramitarization@5c3bd550]" name="Username" duration-ms="3" started-at="2020-01-28T11:01:30Z" data-provider="getData" finished-at="2020-01-28T11:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hruthik.bolly@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9666463576]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username -->
+        <test-method status="PASS" signature="Username(java.lang.String, java.lang.String)[pri:0, instance:extentReports.Paramitarization@5c3bd550]" name="Username" duration-ms="3" started-at="2020-01-28T11:01:30Z" data-provider="getData" finished-at="2020-01-28T11:01:30Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username -->
+      </class> <!-- extentReports.Paramitarization -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

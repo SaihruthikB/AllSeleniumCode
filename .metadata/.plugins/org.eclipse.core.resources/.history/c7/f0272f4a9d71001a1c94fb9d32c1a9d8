@@ -1,0 +1,18 @@
+package samplePrograms;
+
+public class ReversingAString {
+
+	public static void main(String[] args) {
+		
+		String input = "this is a test String";
+		
+		String output = reverse(input);
+
+	}
+
+	private static String reverse(String name) {
+		
+		return null;
+	}
+
+}

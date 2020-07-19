@@ -1,0 +1,26 @@
+package oopsConcepts;
+
+public class Constructs {
+	
+	static int num;
+	static int num1;
+	static int num3;
+	
+	public static int test1(int obj1, int obj2)
+	{
+		Constructs c1 = new Constructs();
+		c1.num = 20;
+		c1.num1 = 30;
+		c1.num3 = 40;
+		
+		int k = num+num1+num3+obj1+ obj2;
+		c1.test1(5, 10);
+		
+		System.out.println(k);
+		return k;
+		
+		
+		
+	}
+
+}

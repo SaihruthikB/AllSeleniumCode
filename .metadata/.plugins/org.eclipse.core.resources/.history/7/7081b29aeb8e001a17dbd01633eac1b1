@@ -1,0 +1,20 @@
+package extentReports;
+
+import org.testng.annotations.BeforeTest;
+
+import com.drx.qa.BaseClass.BaseClass;
+import com.relevantcodes.extentreports.ExtentTest;
+
+public class ExtentReports extends BaseClass{
+	public static ExtentReports extent;
+	public static ExtentTest loggers;
+	
+	
+
+	
+	
+	
+	
+	
+
+}

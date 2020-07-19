@@ -1,0 +1,21 @@
+package methodOverloading;
+
+public class SampleProgram {
+	
+	public static int AddtionOfTwo(int i, int j){
+		
+		int k = i+j;
+		System.out.println(k);
+		return k;
+	}
+		public static void main(String args[])
+		
+		{
+			AddtionOfTwo(30, 50);
+		}
+		
+		
+		
+	}
+
+

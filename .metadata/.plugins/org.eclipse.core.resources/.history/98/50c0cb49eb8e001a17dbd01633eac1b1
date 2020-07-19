@@ -1,0 +1,26 @@
+package extentReports;
+
+import org.testng.annotations.BeforeTest;
+
+import com.drx.qa.BaseClass.BaseClass;
+import com.relevantcodes.extentreports.ExtentTest;
+
+public class ExtentReports extends BaseClass{
+	public static ExtentReports extent;
+	public static ExtentTest loggers;
+	
+	@BeforeTest
+	public static void SetExtent() {
+		extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/" + "ExtentReports.html", true);
+
+		extent.addSystemInfo("Host name", "MacBook Pro");
+		extent.addSystemInfo("TesterName", "Sai HruthikBolly");
+		extent.addSystemInfo("Environment", "6.1 QA environment");
+
+	}
+	
+	
+	
+	
+
+}

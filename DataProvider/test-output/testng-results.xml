@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20419" started-at="2020-05-09T12:12:04Z" finished-at="2020-05-09T12:12:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20419" started-at="2020-05-09T12:12:04Z" finished-at="2020-05-09T12:12:25Z">
+      <class name="bibaNavigationSelection.NavigationCheck">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:bibaNavigationSelection.NavigationCheck@31ef45e3]" name="setBrowser" duration-ms="20376" started-at="2020-05-09T12:12:05Z" finished-at="2020-05-09T12:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+      </class> <!-- bibaNavigationSelection.NavigationCheck -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

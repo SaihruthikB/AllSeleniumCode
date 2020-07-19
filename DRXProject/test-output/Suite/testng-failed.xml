@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="testNGScreenShots.ScreenshotsforFailed"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.drx.qa.TestClass.NewRxTestClass">
+        <methods>
+          <include name="selectDrug"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- com.drx.qa.TestClass.NewRxTestClass -->
+      <class name="com.drx.qa.TestClass.LoginImageClick">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginImpageLink"/>
+        </methods>
+      </class> <!-- com.drx.qa.TestClass.LoginImageClick -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

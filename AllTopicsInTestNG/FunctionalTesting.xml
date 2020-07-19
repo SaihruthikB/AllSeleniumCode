@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="customListener.Listeners"></listener>
+<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+</listeners>
+  <test name="RegistrationTesting">
+    <classes>
+      <class name="testNGTopics.Assertions"/>
+    </classes>
+  </test> <!-- FunctionalTesting -->
+  
+  <test name="LoginTestTesting">
+    <classes>
+      <class name="testNGTopics.AllTestAnnotations"/>
+    </classes>
+  </test> <!-- FunctionalTesting -->
+</suite> <!-- Suite -->
+
+

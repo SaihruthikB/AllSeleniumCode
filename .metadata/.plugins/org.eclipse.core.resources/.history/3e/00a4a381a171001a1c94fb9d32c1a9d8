@@ -1,0 +1,21 @@
+package samplePrograms;
+
+public class WordReserve {
+	
+	
+	public static String name(String Myname)
+	{
+		String name = "Hruthik";
+		String reverse = "";
+		String[] array = name.split("");
+		
+		for(String item : array)
+		{
+			reverse = item + reverse ;
+		}
+		
+		return reverse;
+	}
+	
+	 
+}

@@ -1,0 +1,34 @@
+package propertiesFile;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+import endToEndAppilcation.RitwikSolutionsCompany.OpeningChromeBrowser;
+
+public class PropertieClass {
+	
+	public static void main(String[] args) throws IOException {
+		
+		getProperties();
+		
+	}
+	
+ public static void getProperties() throws IOException
+ {
+	 Properties p1 = new Properties();
+	 String s1=p1.getProperty("user.dir");
+	 InputStream i1 = new FileInputStream("/Users/admin/Documents/workspace/RitwikSolutionsCompany/src/main/java/propertiesFile/Files.properties");
+	 p1.load(i1);
+	String browser1=p1.getProperty("browser");
+	System.out.println(p1.getProperty("url"));
+	OpeningChromeBrowser.browser = browser1;
+	 
+	 
+	 
+ }
+ 
+
+}
